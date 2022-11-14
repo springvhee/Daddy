@@ -1,0 +1,39 @@
+.box{
+border: solid 2px;
+width: 100%;
+margin: 100px;
+padding: 70px;
+max-width:900px;
+position: sticky;
+align-items: center;
+}
+.header{
+    color:#aa2321;
+    font-style:unset;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom:dotted darkmagenta 10px;
+}
+
+h3{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+p{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+line-height:40px;
+font-size:20px ;
+font-weight:60px;
+}
+.list{
+    border: solid darkmagenta  7px;
+}
+.mail{
+    color: green;
+}
+.web{
+    color: orangered;
+}

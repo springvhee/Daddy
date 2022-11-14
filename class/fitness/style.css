@@ -1,0 +1,63 @@
+body{
+margin: 0;
+padding: 0 5%;
+}
+
+nav{
+position: sticky;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin:2% 0;
+}
+a{
+    text-decoration: none;
+    color: #ECD4C1;
+}
+h1{
+    text-align: center;
+    margin: 3%;
+}
+img{
+    width: 700px;
+    height: 500px;
+}
+.logo{
+    background-color: #ECD4C1;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1%;
+    box-shadow: 0 0 50px #ECD4C1;
+}
+.nav__menu__item{
+    background-color: #B3723C;
+    padding: 20px;
+    margin-left: 20px;
+}
+.banner{
+    height:80vh;
+    width: 100%;
+    background-image:url(./images/meagan-stone-r951FqxHTao-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__caption{
+    background-color: #ECD4C1;
+    text-align: center;
+    color: #6E3C15;
+}
+.hero{
+    color:#1B140F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__text{
+ margin-left:150px;
+}
+.hero__text__even{
+margin-right: 150px;
+}

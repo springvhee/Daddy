@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+}
+
+.span,em{
+    color: blueviolet;
+}
+
+.special{
+    list-style:none ;
+    color: orangered;
+    font-weight: bold;
+}
+
+/* to style anli element that has thw class of special-too */
+li.special-too, em.special-too{
+    color: brown;
+    font-weight: bold;
+}
+
+/* styling based on location */
+/* style the anchor tag inside the p tag */
+p a {
+    color:rebeccapurple;
+    font-weight: bold;
+}
+/* the + targets the */
+div + ul{
+    background-color: hotpink;
+}
+
+h1.special-too +p{
+    color: blue;
+font-size: 3rem;
+}

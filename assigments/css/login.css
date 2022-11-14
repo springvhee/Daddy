@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: royalblue;
+    width:100% ;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    border-radius: 20px;
+    background-color: #fafafa;
+    color: #0a100d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+  
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color:black;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.user{
+    text-align: center;
+    justify-content: center;
+    /* background-color: wheat; */
+    background-position: center;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name, .password{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/* the padding is done in a clockwise manner--top,right,bottom,left. */
+button{
+    margin: 90px 50px;
+    margin-left: 40px;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    background-color:#0a100d;
+    color: white;
+    border-radius: 40px;
+    font-weight: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    color:#023e8a;
+    cursor: pointer;
+}
