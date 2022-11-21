@@ -8,22 +8,39 @@
     <link rel="stylesheet" href="./css/ratings.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="logo">BLUTECH</h1>
-     <nav>
-        <div class="nav-menu">
-           <a class="nav-menu-item" href="./Login.html">LogIn</a>
-           <a class="nav-menu-item" href="./Sign up.html">Sign Up</a>
-           <a class="nav-menu-item" href="#">Contact Us</a>
-        </div> 
-     </nav>
-    </header> 
-    <section>
-      <div class="main">
-        <h3>WELCOME</h3>
-        <p>What network do you use, choose an option below: </p>
+  
+    <div class="navbar">
+      <div class="logo">
+        <h1><a href="#">BLUTECH</a></h1>
       </div>
-      <a href="./Home page.html"><button type="button">GO BACK</button></a>
-    </section>   
+      <div class="navbar-items">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Signup</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <section>
+      <h3>WELCOME</h3>
+      <div class="main">
+        <p>STEP 1 </p>
+        <label for="mobile network"> choose your Mobile Network: </label><br>
+        <select name="mobile network" id="mobile network">
+         <option value="MTN">MTN</option>
+          <option value="AIRTEL">AIRTEL</option>
+          <option value="9MOBILE">9MOBILE</option>
+          <option value="GLO">GLO</option>
+        </select>
+      </div>
+        <div class="main2">
+          <h2>USER NETWORK RATINGS</h2>
+        </div>
+    </section> 
+    <div>
+      <button type="submit">SUBMIT</button>
+    </div>    
 </body>
 </html>
