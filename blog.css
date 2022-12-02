@@ -1,0 +1,411 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-top: 20px;
+}
+
+.logo{
+margin-left: 50px;
+margin-right: 300px;
+color:#343a40;
+font-weight: lighter;
+cursor: pointer;
+}
+
+.link{
+    margin-right: 90px;
+}
+
+.header a{
+    
+    text-decoration: none;
+    color:gray ;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    padding:100px 50px 35px 50px; 
+}
+
+.header a:hover{
+    background-color: #004643;
+    padding:100px 50px 43px 50px;
+    cursor: auto;
+}
+
+.nav-icon{
+   justify-content: flex-end;
+   color: gray;
+   margin-left: 40px;
+}
+
+.nav-icon:hover{
+    color:#4361ee;
+}
+
+.main{
+background-image: url(../image/pexels-maksim-goncharenok-4596640.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center center;
+border:40px 50px;
+padding:150px 100px;
+height: 900px;
+position: relative;
+margin-top: -5px;
+margin-bottom: 10px;
+}
+
+.main-text{
+text-align: center;
+margin-top: 90px;
+align-items: center;
+/* margin-right: 200px; */
+justify-content: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:#f4f3ee;
+}
+
+.h3{
+    font-size: 30px;
+}
+
+.h2{
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+
+.main-text button{
+color: black;
+padding: 20px 30px 20px 30px;
+border: none;
+border-radius: 95px;
+transition: background-color 0.3s;
+text-align: center;
+background-color: #52b788;
+font-size: 30px;
+}
+.main-text button:hover{
+    cursor: pointer;
+    border: solid white;
+    color: white;
+    padding: 30px 45px;
+    background-color: transparent;
+}
+
+.arrow1{
+    align-content: center;
+    margin-left: 1000px;
+  
+}
+
+.arrow1:hover{
+   color: #343a40;
+   transition: 0.5s;
+}
+
+.arrow2{
+    margin-left: 100px;
+    align-content: center;
+
+}
+.arrow2:hover{
+    color: #343a40;
+    transition: 0.5s;
+}
+
+section{
+    display: block;
+    grid-template-columns: 5fr 2fr;
+    margin: 0 3vw;
+}
+
+ section .hero{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-top: 50px;
+}
+
+.hero-image{
+width:45em;
+margin-left: 100px;
+height: 30em;
+margin-top: 20px;
+background-image: url(../image/pexels.webp);
+background-position: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 200px;
+display: block;
+}
+
+.hero-image button{
+position: absolute;
+font: 30px 'Courier New', Courier, monospace;
+color: black;
+font-weight: lighter;
+padding: 25px 10px 25px 10px;
+border: none;
+border-radius: 95px;
+margin-top:20em;
+margin-left: 150px;
+margin-bottom: 100px;
+background-color: #52b788;
+}
+
+.post {
+    display: block;
+}
+
+.category{
+    display : block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}  
+
+.list{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list-item{
+    background: darkseagreen;
+    border-radius: 3rem;
+    padding: 0.4rem 0.4rem;
+    margin: 0.8rem 0;
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    margin: -190px 0 0 100px;
+    font:  25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text button{
+   width: 200px;
+   padding: 20px 0 20px;
+   padding-bottom: 20px;
+   background-color: #52b788;
+   border:none;
+}
+
+
+hr{
+   color: grey;
+   margin-right: 90px;
+}
+
+
+
+ /* section .hero2{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-top: 50px;
+} */
+
+
+.hero2-image{
+width:50em;
+margin:10px 0 200px 60px;
+height: 30em;
+margin-top: 60px;
+ background-repeat: no-repeat;
+ background-image: url(../image/pexels-emre-acar-11210126.jpg);
+ background-position: 50%;
+ background-size: contain;
+ display: flex;
+}
+
+
+
+.hero2-image button{
+    position: absolute;
+    font:  30px'Courier New', Courier, monospace;
+    color: black;
+    font-weight: lighter;
+    padding: 25px 10px 25px 10px;
+    border: none;
+    border-radius: 95px;
+    margin-top:20em;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    background-color: #52b788;
+}
+
+
+
+
+.text2 {
+    margin: -140px 0px 0px 100px;
+    font: 25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text2 button{
+    width: 200px;
+    padding: 20px 0px 20px;
+    background-color: #52b788;
+    border:none;
+ }
+
+ /* .hero3{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-top: 50px;
+ } */
+
+
+ .hero3-image{
+    width:45em;
+    margin-left: 100px;
+    height: 30em;
+    margin-top: 60px;
+    background-image: url(../image/pexels-cottonbro-studio-6318290.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    display: block;
+    }
+
+.hero3-image button{
+ position: absolute;
+ font: 30px 'Courier New', Courier, monospace;
+ color: black 30px;
+ font-weight: lighter;
+ padding: 25px 10px 25px 10px;
+ border: none;
+ border-radius: 95px;
+ margin-top:20em;
+ margin-left: 150px;
+ margin-bottom: 100px;
+ background-color: #52b788;
+}
+
+.text3{
+margin: -140px 0px 0px 100px;
+font: 25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+.text3 button{
+    width: 200px;
+    padding: 20px 0px 20px;
+    background-color: #52b788;
+    border:none;
+}
+
+
+/* .hero4{
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin-top: 50px; */
+
+
+
+.hero4-image{
+    width:45em;
+    margin-left: 100px;
+    height: 30em;
+    margin-top: 60px;
+    background-image: url(../image/pexels-asad-photo-maldives-1449729.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    display: block;
+}
+
+.hero4-image button{
+    position: absolute;
+    font: 30px 'Courier New', Courier, monospace;
+    color: black 30px;
+    font-weight: lighter;
+    padding: 25px 10px 25px 10px;
+    border: none;
+    border-radius: 95px;
+    margin-top:20em;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    background-color: #52b788;
+ }
+   
+.text4{
+ margin: -140px 0px 0px 100px;
+ font: 25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .text4 button{
+    width: 200px;
+    padding: 20px 0px 20px;
+    background-color: #52b788;
+    border:none;
+}
+
+ .flex-row{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+ }  
+
+.arrowright{
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+}
+
+
+.arrowleft{
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+}
+
+.pages{
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 70px;
+  
+    background: #343a40;
+}
+/* aside{
+    display:block;
+} */
+
+
