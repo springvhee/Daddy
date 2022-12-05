@@ -1,0 +1,145 @@
+*{
+    font-size: 1rem;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+section{
+    background-color:#fdc500;
+    border: white solid 40px;
+    height: 40rem;
+    position: relative;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color:#004b23 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav, .nav-items {
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "sofia";
+}
+
+.nav-items{
+    gap: 32px;
+}
+.nav-items :hover{
+    color: #008000;
+    font-weight: bold;
+}
+
+nav{
+    margin:0 1.5rem 1.5rem 1.5rem;
+    justify-content: space-between;
+}
+
+.nav-items li{
+    color: #8da5a5;
+}
+
+.maintext{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -400px;
+    
+   
+}
+
+.main-text{
+margin-top: 200px;
+color: #008000;
+padding-left: 40px;
+font: 70px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Text{
+    margin-left: 50px;
+}
+
+b{
+color: #fc2f00;
+font-weight: bolder;
+font-size: 70px;
+}
+
+p{
+    margin-top: 7px;
+    font-size: 30px;
+    color:#8da5a5;
+}
+
+img{
+    margin-top: -40px;
+    max-width: 60%;
+    height: auto;
+}
+
+
+.secondsection{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: white solid;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+   
+}
+
+.partner{
+    background-image: url(../image/pexels-lukas-628241.jpg);
+    background-position: center;
+    height: 15rem;
+    width: 30rem;
+    background-size: cover; 
+    padding-top: 60px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Logistics{
+    background-image: url(../image/pexels-vanessa-loring-5965654.jpg);
+    background-position: center;
+    height: 15rem;
+    border-radius: 20px;
+    padding-top: 60px;
+    width: 30rem;
+    text-align: center;
+    justify-content: center;
+    background-size: cover; 
+    position: relative;
+}
+
+.Bp{
+    color: #c30011;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.grow{
+    color:black;
+    font-family:'sofia';
+}
+
+a{
+ color: #008000;
+}
